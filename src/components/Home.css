@@ -1,0 +1,25 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.url-container {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.url-container .MuiTextField-root {
+    width: 70%;
+}
+
+.url-container .MuiButton-root {
+    width: 25%;
+}
